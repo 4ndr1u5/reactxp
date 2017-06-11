@@ -31,7 +31,7 @@ export interface FlexboxStyle {
     alignItems?: 'flex-start' | 'flex-end' | 'center' | 'stretch';
     alignSelf?: 'auto' | 'flex-start' | 'flex-end' | 'center' | 'stretch';
     alignContent?: 'auto' | 'flex-start' | 'flex-end' | 'center' | 'stretch';
-    
+
     borderWidth?: number;
     borderTopWidth?: number;
     borderRightWidth?: number;
@@ -48,6 +48,7 @@ export interface FlexboxStyle {
 
     flex?: number;
 
+    flexBasis?: number;
     flexWrap?: 'wrap' | 'nowrap';
     flexDirection?: 'column' | 'row' | 'column-reverse' | 'row-reverse';
     justifyContent?: 'flex-start' | 'flex-end' | 'center' | 'space-between' | 'space-around';
